@@ -1,0 +1,236 @@
+@CHARSET "ISO-8859-1";
+
+.page-content {
+	padding-left: 0px;
+	width: 100%;
+	margin-top:50px;
+}
+
+.row-content {
+	padding: 10px;
+}
+
+/* NAVBAR */
+.navbar {
+	background-color: #ff9933;
+	border: none;
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	line-height: 50px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60px;
+	float: none;
+}
+
+/* TOGGLE BUTTON */
+.navbar-toggle {
+	border: none;
+	color: #fff;
+	margin: 0;
+	padding: 18px 15px;
+	border-radius: 0px;
+	float: left;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+	background-color: #404040;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.color-text-white {
+	color: white;
+}
+
+/* NAV BAR BUTTONS */
+a.nav-bar-button {
+	
+	padding: 15px 15px;
+	float: right;
+	transition: background-color 0.5s ease;
+}
+
+a.nav-bar-button {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover.nav-bar-button {
+	background: #DF7401;
+}
+
+/* SIDEBAR */
+#sidebar-wrapper {
+	background-color: #404040;
+	color: black;
+	z-index: 10;
+}
+
+.sidebar-nav {
+	padding: 0px;
+	width: 100%;
+	list-style: none;
+}
+
+.sidebar-nav li {
+	line-height: 50px;
+	text-indent: 20px;
+}
+
+.sidebar-nav li a {
+	transition: background-color 0.3s ease;
+	transition: padding 0.5s ease;
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 0px 0px 0px 0px;
+}
+
+.sidebar-nav li a:hover {
+	background: rgba(255, 255, 255, 0.25);
+	color: white;
+	text-decoration: none;
+	padding: 0px 0px 0px 10px;
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+	text-decoration: none;
+}
+
+/* SIDEBAR - DESKTOP */
+.sidebar-desktop {
+	width: 0px;
+	height: 100%;
+	position: fixed;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.sidebar-desktop.active {
+	width: inherit;
+}
+
+/* SIDEBAR - MOBILE */
+.sidebar-mobile {
+	width: 0px;
+	height: 100%;
+	z-index: 51;
+	margin: 0;
+	padding: 0;
+	top: auto;
+	position: fixed;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.sidebar-mobile.active {
+	width: 70%;
+}
+
+.modal {
+	overflow-y: scroll;
+}
+
+.invitationActionButton {
+	background-color: #ff9933;
+	color: #FFFFFF;
+}
+
+.invitationCancelButton {
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+
+/* NOTIFICATIONS */
+li.nav-bar-button 
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+li:hover.nav-bar-button 
+{
+	background: #FF9900;
+}
+
+li.nav-bar-button 
+{
+	height: 50px;
+	float: right;
+	transition: background-color 0.5s ease;
+}
+
+li:hover.open
+{
+	background: white;
+}
+
+li.open > a > span
+{
+	color: #ff9933;
+}
+
+.dropdown-toggle
+{
+	height: 50px;
+}
+
+.notificationsWidth
+{
+	min-width: 400px;
+	max-height: 500px;
+	overflow: auto;
+}
+
+.badge
+{
+	background-color: white; color: #ff9933;
+}
+
+.notificationRow
+{
+	width:100%;
+	text-decoration: none;
+	transition: background-color 0.5s ease;
+	transition: padding 0.5s ease;
+	padding: 10px 10px 10px 20px;
+}
+
+:hover.notificationRow
+{
+	width:100%;
+	text-decoration: none;
+	background: #F2F2F2;
+	padding: 10px 10px 10px 30px;
+}
+
+.textdecorationNone
+{
+	text-decoration: none;	
+}
+
+/* SECOND NAVBAR MENU */
+.navbar-menu-custom
+{
+	background-color: #ff9933 !important;
+}

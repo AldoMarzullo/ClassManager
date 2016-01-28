@@ -1,0 +1,12 @@
+"registration login - studenti e professori"
+"legge il prospetto del progetto"
+"un professore crea un corso, con le varie lezioni e i file allegati"
+"Il professore invita gli studenti a joinare il corso"
+"Per caricare i file, si usa un cloud oppure serve uno spazio dove caricare i file sul server?"
+"Ogni utente ha il suo spazio di archiviazione, per caricare i propri file!"
+"ask/answer question - una cosa tipo stack overflow o un forum" ???
+	
+	ogni utente crea un topic, al quale possono partecipare studenti e professori
+
+"Il professore vede i punteggi assegnati per ogni esercizi e ha una sezione per i voti degli esami"
+"Per le comunicazioni si invia un' e mail dall'applicazione e/o una notifica sulla piattaforma su un'eventuale bacheca"

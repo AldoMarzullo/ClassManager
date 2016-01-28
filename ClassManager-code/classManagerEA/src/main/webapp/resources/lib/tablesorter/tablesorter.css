@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+	th.headerSortDown > span.headerSortUp
+	{
+		display: none;
+	}
+	
+	th.headerSortUp > span.headerSortDown
+	{
+		display: none;
+	}
+	
+	th.noSort > span.headerSortUp
+	{
+		display: none;
+	}
+	
+	th.noSort > span.headerSortDown
+	{
+		display: none;
+	}

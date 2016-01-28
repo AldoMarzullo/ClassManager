@@ -1,0 +1,13 @@
+
+.answerRow {
+	margin-bottom: 2px;
+}
+
+.answerRow:nth-child(odd) { 
+	background: #E6E6E6; 
+}
+
+body {
+	background-color: #FCF8E3;
+}
+
